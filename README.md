@@ -121,7 +121,7 @@ Here, we're exporting two functions, `outage()` and `surge()` as properties of t
 // Note that we can call each module whatever
 // we want!
 const Decor = require('./lamp');
-const powerEvents = require('./power');
+const power = require('./power');
 
 const myLamp = new Decor(10);
 
@@ -318,3 +318,5 @@ Ultimately, `module.exports` versus `exports` is a matter of style — semantica
 
 - Node.js `module.exports`: https://nodejs.org/api/modules.html#modules_module_exports
 - Node.js `exports` alias: https://nodejs.org/api/modules.html#modules_exports_alias
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/node-js-export-strategies'>Export Strategies</a> on Learn.co and start learning to code for free.</p>
